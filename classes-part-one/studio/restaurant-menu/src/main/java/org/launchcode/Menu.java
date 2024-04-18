@@ -19,10 +19,7 @@ public class Menu {
     public void setLastUpdated(Date lastUpdated) {
         this.lastUpdated = lastUpdated;
     }
-    public void addMenuItem(MenuItem item) {
-        items.add(item);
-        updateLastUpdated(new Date()); // Update lastUpdated whenever a new item is added
-    }
+
     public void removeMenuItem(MenuItem item) {
         items.remove(item);
         updateLastUpdated(new Date()); // Update lastUpdated whenever an item is removed

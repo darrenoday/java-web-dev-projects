@@ -7,6 +7,8 @@ public class HouseCat extends Cat {
         name = aName;
     }
 
+
+
     public boolean isSatisfied() {
         return !isHungry() && !isTired();
     }

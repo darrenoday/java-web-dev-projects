@@ -54,4 +54,9 @@ public class MenuItem {
     public void setNew(Boolean aNew) {
         isNew = aNew;
     }
+
+    public void printMenuItem(){
+        System.out.println("name : " + name   + " price: " + price + " description: " + description + " new or not? " + isNew);
+    }
+
 }

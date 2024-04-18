@@ -27,6 +27,11 @@ public class Menu {
     public ArrayList<MenuItem> getItems() {
         return items;
     }
+    public void addMenuItem(MenuItem item) {
+        items.add(item);
+
+    }
 }
+
 
 
